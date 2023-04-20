@@ -21,7 +21,7 @@
 @media screen and (max-width: 620px) {
     .place__paragraph {
         grid-column: 1;
-        max-width: calc(100% - 32px)
+        max-width: calc(100% - 32px);
     }
 }
 
