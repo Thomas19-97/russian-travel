@@ -15,8 +15,8 @@
   <header class="header">
     <div class="header__logo"></div>
     <div class="header__lang">
-      <a href="#" class="header__lang-link">Ru</a>
-      <a href="#" class="header__lang-link header__lang-link_inactive">En</a>
+      <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+      <a href="#" class="header__lang-link">En</a>
     </div>
   </header>
   <main class="content">
@@ -61,10 +61,10 @@
     <section class="places">
       <article class="place">
         <h2 class="place__title">Куршская коса</h2>
-        <nav class="place__website">
+        <div class="place__website">
           <p class="place__url-heading">URL</p>
           <a href="http://park-kosa.ru" class="place__link" target="_blank">park-kosa.ru</a>
-        </nav>
+        </div>
         <img src="./images/place-kosa.jpg" alt="Картинка - Куршская коса" class="place__image">
         <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
           спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная
@@ -142,10 +142,11 @@
         <h2 class="cover__title">До Байкала «на собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
           электричках.</p>
-      </a>
-      <div class="cover__overlay"></div>
+      </a>>
     </section>
-    <footer class="footer">
+  </main>
+  <footer class="footer">
+    <nav>
       <ul class="footer__links">
         <li><a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a></li>
         <li><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a></li>
@@ -153,9 +154,9 @@
         <li><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a></li>
         <li><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешевствия</a></li>
       </ul>
-      <p class="footer__copyright">© 2023. Акулов Артём</p>
-    </footer>
-  </main>
+    </nav>
+    <p class="footer__copyright">© 2023. Акулов Артём</p>
+  </footer>
 </body>
 
 </html>

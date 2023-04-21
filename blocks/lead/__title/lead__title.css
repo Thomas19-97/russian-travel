@@ -12,11 +12,7 @@
 
 }
 
-@media screen and (max-width:1150px) {
-    .lead__title {
-        font-size: 50px;
-    }
-}
+
 
 
 
@@ -46,8 +42,7 @@
     .lead__title {
         max-width: calc(100% - 28px);
         line-height: 1.1;
-        margin: 0 auto 32px;
-        border: dashed blue;
+        margin: 0 auto 16px;
     }
 
 }
